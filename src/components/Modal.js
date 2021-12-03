@@ -36,29 +36,29 @@ export default class CustomModal extends Component {
 
     return (
       <Modal isOpen={true} toggle={toggle}>
-        <ModalHeader toggle={toggle}>Todo Item</ModalHeader>
+        <ModalHeader toggle={toggle}>Dashboard Item</ModalHeader>
         <ModalBody>
           <Form>
             <FormGroup>
-              <Label for="todo-title">Title</Label>
+              <Label for="dashboard-title">Title</Label>
               <Input
                 type="text"
-                id="todo-title"
+                id="dashboard-title"
                 name="title"
                 value={this.state.activeItem.title}
                 onChange={this.handleChange}
-                placeholder="Enter Todo Title"
+                placeholder="Enter Dashboard Title"
               />
             </FormGroup>
             <FormGroup>
-              <Label for="todo-description">Description</Label>
+              <Label for="dashboard-description">Description</Label>
               <Input
                 type="text"
-                id="todo-description"
+                id="dashboard-description"
                 name="description"
                 value={this.state.activeItem.description}
                 onChange={this.handleChange}
-                placeholder="Enter Todo description"
+                placeholder="Enter Dashboard description"
               />
             </FormGroup>
             <FormGroup check>
