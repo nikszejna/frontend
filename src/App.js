@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Modal from "./components/Modal";
 import ChartDisplay from "./components/ChartDisplay";
 import axios from "axios";
 
